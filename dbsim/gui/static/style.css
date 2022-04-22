@@ -1,0 +1,151 @@
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin: 2%;
+}
+
+.row {
+  height: 26%;
+  margin: 2%;
+}
+
+.outtest-block {
+  height: 100%;
+}
+
+.top-navigate {
+  height: 0%;
+}
+
+.top-block {
+  height: 24%;
+}
+.middle-block {
+  height: 46%;
+}
+.bottom-block {
+  height: 16%;
+}
+
+.top-block .box {
+  height: 100%;
+  margin-left: 0.5%;
+  padding: 0%;
+}
+.middle-block .box {
+  height: 100%;
+  margin: 1%;
+}
+.bottom-block .box {
+  height: 100%;
+  margin: 1%;
+  padding: 0%;
+}
+
+.box .input-group {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+}
+
+.box .input-group .textarea{
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
+
+.canvas {
+  height: 96%;
+  padding: 0%;
+  margin: 2%;
+}
+
+.canvas img {
+  width: 100%;
+  height: 85%;
+}
+
+.canvas .col {
+  margin: 0%;
+}
+
+#query-input-box {
+  overflow-y: scroll;
+}
+#query-output-box {
+  overflow-y: scroll;
+  margin: 1.5%;
+}
+
+#rules-box {
+  height: 96%;
+  margin-top: 2%;
+}
+
+#rules-list {
+  position: relative;
+  margin-top: -20%;
+  margin-left: 3%;
+  width: 100%;
+  height: 70%;
+  overflow-y: scroll;
+}
+
+#history-records {
+  overflow-y: scroll;
+}
+
+button {
+  height: 80%;
+  width: 100%;
+}
+
+span.title {
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+.canvas.title {
+  margin-top: 10%;
+}
+
+#rules-box .title{
+  margin-top: 0%;
+  margin-left: -2%;
+}
+
+.bottom-block .title {
+  margin-left: 0.5%;
+  margin-top: 0%;
+}
+
+
+#candidate-rules-list-box {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table td {
+  word-wrap: break-word;         /* All browsers since IE 5.5+ */
+  overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+}
+
+#datasets-list-box {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#add-dataset-fileinput {
+  display: none;
+}
