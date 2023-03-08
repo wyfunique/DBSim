@@ -197,11 +197,11 @@ Then open your browser and go to the link `localhost:8888`. Please read our pape
 
 ### Documentation
 
-See the Wiki of this repo.
+See the [Wiki](https://github.com/wyfunique/DBSim/wiki) of this repo.
 
 ### Acknowledgement 
 
-DBSim is developed based on Splicer ([trivio/splicer: Splicer - adds relation querying (SQL) to any python project (github.com)](https://github.com/trivio/splicer)). And we also borrowed some ideas from Apache Calcite.
+DBSim is developed based on Splicer ([trivio/splicer: Splicer - adds relation querying (SQL) to any python project (github.com)](https://github.com/trivio/splicer)). We also borrowed some ideas from Apache Calcite.
 
 ### Citation
 
